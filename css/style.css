@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {background: #ecf0f1; color: #111; font-family: 'Montserrat', sans-serif;}
+.fa {margin-right: 5px;}
+
+
+
+.leftnav {background-color: #111; color: white; width: 225px; height: 100%; min-height: 100%; position: absolute; left: 0px; top: 0px;}
+.leftnav-title {text-align: center; padding: 20px; font-size: 18px; color: #fff; padding-bottom: 0px;}
+.leftnav-subtitle {text-align: center; padding: 0px; font-size: 13px; color: #fff; padding-bottom: 20px;}
+.leftnav-logo-wrap {width: 100%; background-color: #000; border-bottom: 1px solid #222;}
+.leftnav-menu {padding: 0px;}
+.leftnav-ul {padding-left: 0px; left: 0px; margin: 0px;}
+.leftnav-li {list-style-type: none; padding: 12px; font-size: 13px; background-color: #111; color: #999;}
+.leftnav-li:hover {background-color: #000; cursor: pointer; color: #fff; transition: 0.2s;}
+.leftnav-li:focus {background-color: #000; cursor: pointer; color: #fff; transition: 0.2s;}
+
+.debitur-box {background-color: white; width: 900px; padding: 15px;}
+
+.total-info {background-color: #444;
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 3px; float: right; margin-top: -4px;}
+
+.noinduk-box {
+background-color: #555;
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.noinduk-box:hover {
+    background-color: #111;
+        cursor: pointer;
+}
+
+.add-button {background-color: #1abc9c; border-radius: 3px; color: #fff; padding: 6px; display: inline-block; font-size: 13px; cursor: pointer; margin-left: 15px;}
+.add-button:hover {background-color: #30ddba;}
+
+.seperator {border-bottom: 1px dashed #222; padding-top: 0px; margin-top: -20px;}
+
+.content-wrapper {position: absolute; left: 225px; top: 0px; padding: 20px;}
+
+
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+    padding: 15px;
+    width: 900px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-bottom: 20px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+.drop-arrow {
+    
+    float: right;
+}
